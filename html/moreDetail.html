@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/nav.css">
+    <style>
+        body {
+            /* background-color: #efedd6; */
+            background-image: url('https://ts1.cn.mm.bing.net/th/id/R-C.859d852902d33e492f5e431e30644e12?rik=zYV8tf2TQtIgig&riu=http%3a%2f%2fimg.zcool.cn%2fcommunity%2f011c5957ccf3600000012e7e580a70.jpg%401280w_1l_2o_100sh.jpg&ehk=nqdJeDGSqjm1HNo3Q0amLUwUTPr0yffgtSFHYl1SdfQ%3d&risl=&pid=ImgRaw&r=0');
+            background-size: cover;
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            overflow-x: hidden;
+        }
+        .vedioContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10vw;
+        }
+        .video{
+            width: 80vw;
+            height: 45vw;
+        }
+    </style>
+</head>
+
+<body>
+    <audio src="../assets/music/index_bgm.mp3"></audio>
+    <div class="nav">
+        <a href="../index.html">
+            <div class="logo" style="background-image: url('../img/小房子.png');" width="10" height="10">
+    
+            </div>
+        </a>
+        <div class="menu">
+            <ul>
+                <!-- <li>茶叶品种</li>
+                            <li>品茶步骤</li>
+                            <li>制茶步骤</li>
+                            <li>更多资讯</li> -->
+    
+            </ul>
+            <ul>
+                <a href="teaMakingStep.html">
+                    <li>制茶步骤</li>
+                </a><a href="famousTea.html">
+                    <li>茶叶品种</li>
+                </a><a href="tasteTeaStep.html">
+                    <li>品茶步骤</li>
+                </a><a href="moreDetail.html">
+                    <li>更多资讯</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="vedioContainer">
+        <iframe class="video" src="//player.bilibili.com/player.html?aid=99211940&bvid=BV1F741117wt&cid=169356835&p=1"
+            scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+        <iframe class="video" src="//player.bilibili.com/player.html?aid=512993118&bvid=BV1M3411A7Di&cid=761150242&p=1" scrolling="no"
+            border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    </div>
+    <script>
+        // const boxes = document.querySelectorAll('.box')
+
+        // window.addEventListener('scroll', checkBoxes)
+
+        // checkBoxes()
+
+        // function checkBoxes() {
+        //     const triggerBottom = window.innerHeight / 5 * 4
+
+        //     boxes.forEach(box => {
+        //         const boxTop = box.getBoundingClientRect().top
+
+        //         if (boxTop < triggerBottom) {
+        //             box.classList.add('show')
+        //         } else {
+        //             box.classList.remove('show')
+        //         }
+        //     })
+        // }
+    </script>
+</body>
+
+</html>
